@@ -1,0 +1,24 @@
+#harga{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#harga td, #harga th {
+    border: 1px solid #ddd;
+    padding:8px;
+}
+
+
+#harga th{
+    background-color:maroon;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: #ddd;
+}
+#harga tr:nth-child(odd){
+    background-color: #c0c0c0;
+}
+#harga tr:hover{
+    background-color: rgb(100, 204, 230);
+}
